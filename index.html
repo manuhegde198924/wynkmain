@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./style.css" rel="stylesheet">
+  <link href=
+  "https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" 
+            rel="stylesheet"> 
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <title>Trending part of wynk music</title>
+  <style>
+    /* Define the grid container */
+  
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Footer links */
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+            footer {
+              background-color: black;
+            }
+        /* Social media icons */
+        .social-icons {
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            color: #fff;
+            font-size: 20px;
+            margin: 0 10px;
+        }
+
+        /* Copyright text */
+        .copyright {
+            margin-top: 10px;
+        }
+        #unique{
+          color:dimgray;
+        
+        }
+        #unique:hover{
+          color:#fff;
+        }
+        #forplaylists{
+          color:dimgray;
+
+        }
+        #forplaylists:hover{
+          color:#fff
+        }
+      
+        #forhomepage{
+          color:dimgrey;
+
+        }
+        #forhomepage:hover{
+          color:#fff
+        }
+
+    
+</style>
+</head>
+<body style="background-color: #0c0f12">
+
+
+  <table class="table table-hover table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+<div style="background-color: #1C1B1B;">
+  <div class="flex justify-between h-14 items-center max-[768px]:p-3 max-[1024px]:p-3 px-24 py-10 top-0 z-10">
+      <div class="flex justify-start items-center">
+          <img class="rounded-full w-12 mr-2" src="https://asset.brandfetch.io/idhXjxLF9g/idxvsamq5q.png?updated=1674455441748">
+          <h1 class="text-white text-xl font-sans max-[768px]:text-sm inline">Wynk Music</h1>
+      </div>
+      <div class="flex items-center justify-center gap-4 h-full">
+          <div class="bg-transparent border rounded-full border-gray-600 px-7 py-2 max-[640px]:hidden">
+              <div class="flex px-2 max-[768px]:px-1 max-[640px]:hidden">
+                  <i class="fa-solid fa-magnifying-glass text-gray-600 text-lg max-[640px]:hidden"></i>
+                  <input type="text" placeholder="Search Songs" class="bg-transparent px-3 outline-none max-[640px]:hidden">
+              </div>
+          </div>
+          <div>
+              <i class="fa-solid fa-indian-rupee-sign text-white border text-xs p-1 rounded max-[640px]:hidden"></i>
+          </div>
+          <div><p class="text-white font-normal max-[640px]:hidden">Manage Subscription</p></div>
+          <div><p class="text-gray-600 text-4xl max-[768px]:hidden">|</p></div>
+          <div><i class="fa-regular fa-user text-white text-lg max-[768px]:hidden"></i></div>
+          <div><p class="text-white max-[768px]:hidden">Login</p></div>
+          <div><i class="fa-solid fa-bars text-white text-lg"></i></div>
+      </div>
+  </div>
+
+  <div style="background-color: #0c0f12" class="flex items-center px-24 py-5 gap-8 overflow-x-auto max-[768px]:px-3 max-[1024px]:px-3">
+      <h3 class="text-gray-400 hover:underline cursor-pointer">All</h3>
+      <h3 class="text-gray-400 hover:underline cursor-pointer">Trending Now</h3>
+      <h3 class="text-gray-400 hover:underline cursor-pointer">Old Songs</h3>
+      <h3 class="text-gray-400 hover:underline cursor-pointer">New Songs</h3>
+      <select class="bg-transparent text-white font-bold hover:underline cursor-pointer">
+          <option>Party Songs</option>
+      </select>
+      <select class="bg-transparent hover:underline cursor-pointer text-gray-400">
+          <option>Top Albums</option>
+      </select>
+      <h3 class="text-gray-400 hover:underline cursor-pointer">Top Artists</h3>
+      <select class="bg-transparent hover:underline cursor-pointer text-gray-400">
+          <option>Top Playlists</option>
+      </select>
+      <h3 class="text-gray-400 hover:underline cursor-pointer">Podcast</h3>
+  </div>
+</div>
+  <!--create a main div to place in all items of trending part-->
+  <div class="container md:w-[86%] max-[768px]:w-[95%] mx-auto lg:mt-0 mt-4 dark:text-white ">
+
+
+  <!---for small redirection links----->
+    
+        <ul class="flex text-xs ">
+      <li id="forhomepage"><a href="#">Home.</a> </li>
+    <li id="forplaylists"><a href="#">Playlists .</a></li>
+    <li id="unique"><P>Trending in Hindi</P><li>
+  </ul>
+  <!-----ended up with a redirection----->
+
+  <div class="container flex flex-col">
+        <div class="image ">
+        <span class="">
+          <img src="./trend.webp "  />
+         </span>
+     </div>
+         <!-- Title for small screen -->
+        
+          <!-- button -->
+          <div class="text-center mt-6">
+            <button
+              class="text-white px-3 py-2 rounded-full hover:bg-gray-600 border border-gray-400"
+            >
+              See All Artists
+            </button>
+          </div>
+        </div>
+        <!-- Artists section for small screen -->
+        <div class="block md:hidden mt-6">
+          <div class="pb-4 text-2xl text-white">
+            Artists
+            <div class="min-w-fit inline-block">See All</div>
+          </div>
+          <div class="flex justify-center">
+            <div class="w-full relative">Carousel</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Title for large screen -->
+    <div class="md:w-9/12">
+      <div class="hidden md:block md:pl-4">
+        <h1 class="text-white font-semibold text-4xl mb-2">
+          TRENDING IN HINDI
+        </h1>
+        <p class="text-gray-500 font-semibold text-sm mb-2">
+          By Wynk Music
+        </p>
+        <div class="flex gap-1 text-xs">
+          <p class="text-gray-500">3.5 L Followers</p>
+          <p class="text-gray-500">•</p>
+          <p class="text-gray-500">20 Songs</p>
+          <p class="text-gray-500">•</p>
+          
+        </div>
+      </div>
+      <div class="mt-4 flex justify-between lg:pl-4">
+        <div class="inline-flex gap-4">
+          <button
+            class="rounded-full text-white px-4 py-2 bg-red-600 hover:bg-red-800"
+          >
+            <i class="fa-solid fa-play"></i> Play Songs
+          </button>
+          <button
+            class="border hover:bg-gray-500 border-white px-3 py2 rounded-full text-white"
+          >
+            <i class="fa-solid fa-plus"></i> Follow
+          </button>
+        </div>
+        <div class="inline-flex gap-4">
+          <div>
+            <i
+              class="fa-solid fa-download border border-white rounded-full p-3 text-white"
+            ></i>
+          </div>
+          <div>
+            <button
+              class="border border-white rounded-full py-2 px-4 text-white"
+            >
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+        
+        
+
+  <!--for 2  play buttons and other buttons-->
+  
+  <!-- Songs List -->
+  
+    </div>
+<!--end of whole firse flex-->
+<!--Start of my table flex-->
+</div>
+    <!-- Song List title -->
+             
+
+<div class="table">
+    <table class="w-9/12 border-collapse">
+        <thead>
+            <tr>
+                <th class="border p-2">#</th>
+                <th class="border p-2">TRACK</th>
+                <th class="border p-2">ARTIST</th>
+                <th class="border p-2">ALBUM</th>
+                <th class="border p-2">DURATION</th>
+                <th class="border p-2">DOWNLOAD</th>
+                <th class="border p-2">MORE</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Repeat this row for each trending song (20 rows) -->
+            <!-- Replace the data with actual values -->
+            <tr>
+                <td class="border p-2">1</td>
+                <td class="border p-2">Artist 1</td>
+                <td class="border p-2">Genre 1</td>
+                <td class="border p-2">Album 1</td>
+                <td class="border p-2">2023-09-01</td>
+                <td class="border p-2">100,000</td>
+                <td class="border p-2">5,000</td>
+                <td class="border p-2">3:30</td>
+            </tr>
+            <tbody>
+              <!-- Repeat this row for each trending song (20 rows) -->
+              <!-- Replace the data with actual values -->
+              <tr>
+                  <td class="border p-2">2</td>
+                  <td class="border p-2">Artist 1</td>
+                  <td class="border p-2">Genre 1</td>
+                  <td class="border p-2">Album 1</td>
+                  <td class="border p-2">2023-09-01</td>
+                  <td class="border p-2">100,000</td>
+                  <td class="border p-2">5,000</td>
+                  <td class="border p-2">3:30</td>
+              </tr>
+              <tbody>
+                <!-- Repeat this row for each trending song (20 rows) -->
+                <!-- Replace the data with actual values -->
+                <tr>
+                    <td class="border p-2">3</td>
+                    <td class="border p-2">Artist 1</td>
+                    <td class="border p-2">Genre 1</td>
+                    <td class="border p-2">Album 1</td>
+                    <td class="border p-2">2023-09-01</td>
+                    <td class="border p-2">100,000</td>
+                    <td class="border p-2">5,000</td>
+                    <td class="border p-2">3:30</td>
+                </tr>
+                <tbody>
+                  <!-- Repeat this row for each trending song (20 rows) -->
+                  <!-- Replace the data with actual values -->
+                  <tr>
+                      <td class="border p-2">4</td>
+                      <td class="border p-2">Artist 1</td>
+                      <td class="border p-2">Genre 1</td>
+                      <td class="border p-2">Album 1</td>
+                      <td class="border p-2">2023-09-01</td>
+                      <td class="border p-2">100,000</td>
+                      <td class="border p-2">5,000</td>
+                      <td class="border p-2">3:30</td>
+                  </tr>
+                  <tbody>
+                    <!-- Repeat this row for each trending song (20 rows) -->
+                    <!-- Replace the data with actual values -->
+                    <tr>
+                        <td class="border p-2">5</td>
+                        <td class="border p-2">Artist 1</td>
+                        <td class="border p-2">Genre 1</td>
+                        <td class="border p-2">Album 1</td>
+                        <td class="border p-2">2023-09-01</td>
+                        <td class="border p-2">100,000</td>
+                        <td class="border p-2">5,000</td>
+                        <td class="border p-2">3:30</td>
+                    </tr>
+                    <tbody>
+                      <!-- Repeat this row for each trending song (20 rows) -->
+                      <!-- Replace the data with actual values -->
+                      <tr>
+                          <td class="border p-2">6</td>
+                          <td class="border p-2">Artist 1</td>
+                          <td class="border p-2">Genre 1</td>
+                          <td class="border p-2">Album 1</td>
+                          <td class="border p-2">2023-09-01</td>
+                          <td class="border p-2">100,000</td>
+                          <td class="border p-2">5,000</td>
+                          <td class="border p-2">3:30</td>
+                      </tr>
+                      <tbody>
+                        <!-- Repeat this row for each trending song (20 rows) -->
+                        <!-- Replace the data with actual values -->
+                        <tr>
+                            <td class="border p-2">7</td>
+                            <td class="border p-2">Artist 1</td>
+                            <td class="border p-2">Genre 1</td>
+                            <td class="border p-2">Album 1</td>
+                            <td class="border p-2">2023-09-01</td>
+                            <td class="border p-2">100,000</td>
+                            <td class="border p-2">5,000</td>
+                            <td class="border p-2">3:30</td>
+                        </tr>
+                        <tbody>
+                          <!-- Repeat this row for each trending song (20 rows) -->
+                          <!-- Replace the data with actual values -->
+                          <tr>
+                              <td class="border p-2">8</td>
+                              <td class="border p-2">Artist 1</td>
+                              <td class="border p-2">Genre 1</td>
+                              <td class="border p-2">Album 1</td>
+                              <td class="border p-2">2023-09-01</td>
+                              <td class="border p-2">100,000</td>
+                              <td class="border p-2">5,000</td>
+                              <td class="border p-2">3:30</td>
+                          </tr>
+                          <tbody>
+                            <!-- Repeat this row for each trending song (20 rows) -->
+                            <!-- Replace the data with actual values -->
+                            <tr>
+                                <td class="border p-2">9</td>
+                                <td class="border p-2">Artist 1</td>
+                                <td class="border p-2">Genre 1</td>
+                                <td class="border p-2">Album 1</td>
+                                <td class="border p-2">2023-09-01</td>
+                                <td class="border p-2">100,000</td>
+                                <td class="border p-2">5,000</td>
+                                <td class="border p-2">3:30</td>
+                            </tr>
+                            <tbody>
+                              <!-- Repeat this row for each trending song (20 rows) -->
+                              <!-- Replace the data with actual values -->
+                              <tr>
+                                  <td class="border p-2">10</td>
+                                  <td class="border p-2">Artist 1</td>
+                                  <td class="border p-2">Genre 1</td>
+                                  <td class="border p-2">Album 1</td>
+                                  <td class="border p-2">2023-09-01</td>
+                                  <td class="border p-2">100,000</td>
+                                  <td class="border p-2">5,000</td>
+                                  <td class="border p-2">3:30</td>
+                              </tr>
+                              <tbody>
+                                <!-- Repeat this row for each trending song (20 rows) -->
+                                <!-- Replace the data with actual values -->
+                                <tr>
+                                    <td class="border p-2">11</td>
+                                    <td class="border p-2">Artist 1</td>
+                                    <td class="border p-2">Genre 1</td>
+                                    <td class="border p-2">Album 1</td>
+                                    <td class="border p-2">2023-09-01</td>
+                                    <td class="border p-2">100,000</td>
+                                    <td class="border p-2">5,000</td>
+                                    <td class="border p-2">3:30</td>
+                                </tr>
+                                <tbody>
+                                  <!-- Repeat this row for each trending song (20 rows) -->
+                                  <!-- Replace the data with actual values -->
+                                  <tr>
+                                      <td class="border p-2">12</td>
+                                      <td class="border p-2">Artist 1</td>
+                                      <td class="border p-2">Genre 1</td>
+                                      <td class="border p-2">Album 1</td>
+                                      <td class="border p-2">2023-09-01</td>
+                                      <td class="border p-2">100,000</td>
+                                      <td class="border p-2">5,000</td>
+                                      <td class="border p-2">3:30</td>
+                                  </tr>
+                                  <tbody>
+                                    <!-- Repeat this row for each trending song (20 rows) -->
+                                    <!-- Replace the data with actual values -->
+                                    <tr>
+                                        <td class="border p-2">13</td>
+                                        <td class="border p-2">Artist 1</td>
+                                        <td class="border p-2">Genre 1</td>
+                                        <td class="border p-2">Album 1</td>
+                                        <td class="border p-2">2023-09-01</td>
+                                        <td class="border p-2">100,000</td>
+                                        <td class="border p-2">5,000</td>
+                                        <td class="border p-2">3:30</td>
+                                    </tr>
+                                    <tbody>
+                                      <!-- Repeat this row for each trending song (20 rows) -->
+                                      <!-- Replace the data with actual values -->
+                                      <tr>
+                                          <td class="border p-2">14</td>
+                                          <td class="border p-2">Artist 1</td>
+                                          <td class="border p-2">Genre 1</td>
+                                          <td class="border p-2">Album 1</td>
+                                          <td class="border p-2">2023-09-01</td>
+                                          <td class="border p-2">100,000</td>
+                                          <td class="border p-2">5,000</td>
+                                          <td class="border p-2">3:30</td>
+                                      </tr>
+                                      <tbody>
+                                        <!-- Repeat this row for each trending song (20 rows) -->
+                                        <!-- Replace the data with actual values -->
+                                        <tr>
+                                            <td class="border p-2">15</td>
+                                            <td class="border p-2">Artist 1</td>
+                                            <td class="border p-2">Genre 1</td>
+                                            <td class="border p-2">Album 1</td>
+                                            <td class="border p-2">2023-09-01</td>
+                                            <td class="border p-2">100,000</td>
+                                            <td class="border p-2">5,000</td>
+                                            <td class="border p-2">3:30</td>
+                                        </tr>
+                                        <tbody>
+                                          <!-- Repeat this row for each trending song (20 rows) -->
+                                          <!-- Replace the data with actual values -->
+                                          <tr>
+                                              <td class="border p-2">16</td>
+                                              <td class="border p-2">Artist 1</td>
+                                              <td class="border p-2">Genre 1</td>
+                                              <td class="border p-2">Album 1</td>
+                                              <td class="border p-2">2023-09-01</td>
+                                              <td class="border p-2">100,000</td>
+                                              <td class="border p-2">5,000</td>
+                                              <td class="border p-2">3:30</td>
+                                          </tr>
+                                          <tbody>
+                                            <!-- Repeat this row for each trending song (20 rows) -->
+                                            <!-- Replace the data with actual values -->
+                                            <tr>
+                                                <td class="border p-2">17</td>
+                                                <td class="border p-2">Artist 1</td>
+                                                <td class="border p-2">Genre 1</td>
+                                                <td class="border p-2">Album 1</td>
+                                                <td class="border p-2">2023-09-01</td>
+                                                <td class="border p-2">100,000</td>
+                                                <td class="border p-2">5,000</td>
+                                                <td class="border p-2">3:30</td>
+                                            </tr>
+                                            <tbody>
+                                              <!-- Repeat this row for each trending song (20 rows) -->
+                                              <!-- Replace the data with actual values -->
+                                              <tr>
+                                                  <td class="border p-2">18</td>
+                                                  <td class="border p-2">Artist 1</td>
+                                                  <td class="border p-2">Genre 1</td>
+                                                  <td class="border p-2">Album 1</td>
+                                                  <td class="border p-2">2023-09-01</td>
+                                                  <td class="border p-2">100,000</td>
+                                                  <td class="border p-2">5,000</td>
+                                                  <td class="border p-2">3:30</td>
+                                              </tr>
+                                              <tbody>
+                                                <!-- Repeat this row for each trending song (20 rows) -->
+                                                <!-- Replace the data with actual values -->
+                                                <tr>
+                                                    <td class="border p-2">19</td>
+                                                    <td class="border p-2">Artist 1</td>
+                                                    <td class="border p-2">Genre 1</td>
+                                                    <td class="border p-2">Album 1</td>
+                                                    <td class="border p-2">2023-09-01</td>
+                                                    <td class="border p-2">100,000</td>
+                                                    <td class="border p-2">5,000</td>
+                                                    <td class="border p-2">3:30</td>
+                                                </tr>
+                                                                            
+                                            
+                  </tbody>
+                  </table>                                                                                                                                             
+              </div>
+    </div>
+     <div class="flex flex-col">
+  <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+    <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
+      <div class="overflow-hidden">
+        <table class="min-w-full text-left text-sm font-light">
+          <thead class="border-b font-medium dark:border-neutral-500">
+            <tr>
+              <th scope="col" class="px-6 py-4">#</th>
+              <th scope="col" class="px-6 py-4">First</th>
+              <th scope="col" class="px-6 py-4">Last</th>
+              <th scope="col" class="px-6 py-4">Handle</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+              <td class="whitespace-nowrap px-6 py-4 font-medium">1</td>
+              <td class="whitespace-nowrap px-6 py-4">Mark</td>
+              <td class="whitespace-nowrap px-6 py-4">Otto</td>
+              <td class="whitespace-nowrap px-6 py-4">@mdo</td>
+            </tr>
+            <tr
+              class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+              <td class="whitespace-nowrap px-6 py-4 font-medium">2</td>
+              <td class="whitespace-nowrap px-6 py-4">Jacob</td>
+              <td class="whitespace-nowrap px-6 py-4">Thornton</td>
+              <td class="whitespace-nowrap px-6 py-4">@fat</td>
+            </tr>
+            <tr
+              class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
+              <td class="whitespace-nowrap px-6 py-4 font-medium">3</td>
+              <td class="whitespace-nowrap px-6 py-4">Larry</td>
+              <td class="whitespace-nowrap px-6 py-4">Wild</td>
+              <td class="whitespace-nowrap px-6 py-4">@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+                  <!--end of my table-->
+<!--start of my recomended sections-->
+  <!--recomended-->
+        <div class="maincontainer flex align-middle md:w-[86%] mx-auto sm:w-full md:px-0 px-4 mt-5 ">
+          <!--MAIN CONTAINER WITH FLEX 1---->
+                    <div class="recomend 1  border-gray-600 border rounded-lg mt-12 pr-4 p-8 mb-8 md:pr-0">
+                      <!--DIV1 PART OF RECOMENDEDD-->
+                    <h1 class="text-3xl">Recomended Songs</h1>
+                <div class="recomendedsongs flex">
+                  <div class="one">
+                    <h1 class="text-2xl">Login to view your recomended songs</h1>
+                    <br>
+              
+                    
+                    <p class="text-gray-600">
+                      Login or sign up with your mobile number to get personalised recommendations based on the music you have listened to across all your devices
+                    </p>
+                  <br>
+                
+                  <button
+                  class="rounded-full text-white px-4 py-2 bg-black hover:bg-gray-500">Don't have account?</button>
+                  
+                    <button
+                    class="border hover:bg-red-800 hover:bg-red-950 border-white px-3 py2 rounded-full text-white">Login</button>
+</div>
+      </div>          
+  </div>
+          <!--Start of my about package-->
+            <div class="aboutpack">
+<!--FIRST PART-->
+              <div class="imagepart">
+                  <img src="./small.webp">
+              </div>
+<!--IMAGE PART-->
+<!--PARAGRAGPHS WITH LINKS---->
+              <div class="parapar">
+                    <h2>About Package</h2>
+                  <p class="text-sm">Our playlist <strong>Trending in Hindi </strong> a diverse collection of songs in mp3 format, ready for you to download and enjoy<br> without any charges or FREE of cost. With a mix of old favourites and new hits, there's something for everyone. Whether <br>you're looking for the latest chartbuster songs or some classic tracks, our <strong>Trending in Hindi</strong>  playlist has got you covered.</p>
+                 <br> <p>The Playlist<strong> Trending in Hindi </strong>has a total number of top <strong>20 </strong> We covered all the popular or hit songs under <strong>Trending in</strong> <br>Hindi, so that it can fulfil the theme, style or mood you have selected.</p>
+                 <br> <p>At Wynk Music, creating a playlist of songs can be a fun and enjoyable task, as it allows you to curate a collection of songs<br> that you love and that fit a certain theme or mood. Whether you're making a playlist for <a href="#" class="text-gray-600"> party</a>, <a href="#" class="text-gray-600">workout</a>, <a href="#" class="text-gray-600">devotional songs</a> or<br> just for your own listening pleasure, we have got you covered for everything. Download the mp3 files and add them to your<br> own music library today. Happy listening!</p>
+              </div>
+      </div>
+<!--Start of my gogle and apple parts-->
+<!--PARENT-->
+            <div class="applegoogle flex justify-around">
+              <!--LEFT PART OF MY IMAGE PART-->
+              <div class="leftpart">
+              <h2>Best way to Listen to Music!</h2>
+              <p>Don’t forget to install Wynk Music on your mobile phones</p>
+              </div>
+              <!--RIGHT PART OF MY IMAGE-->
+               <div class="mt-4 secod part">
+                            <p class="text-gray-500">Get it on the App Store</p>
+                            <a href="#" class="mt-2 block bg-gray-100 p-2 rounded-lg hover:bg-gray-200">
+                                <img src="app-store.png" alt="App Store" class="w-24 h-8">
+                            </a>
+                </div>
+                        <div class="mt-4">
+                            <p class="text-gray-500">Get it on Google Play</p>
+                            <a href="#" class="mt-2 block bg-gray-100 p-2 rounded-lg hover:bg-gray-200">
+                                <img src="google-play.png" alt="Google Play" class="w-24 h-8">
+                            </a>
+                        </div>
+            </div>
+            
+                
+      <!--grid container-->
+      <div class="gridpart">
+      
+          <div class="md:w-[86%] mx-auto sm:w-full md:px-0 px-4 mt-5 dark:text-white">
+              <div class="grid grid-cols-4 gap-4 max-[768px]:hidden">
+                  <div>
+                      <h1 class="text-white font-semibold text-sm">LATEST SONGS</h1>
+                      <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                          <span class="hover:text-white cursor-pointer">Not Ramaiya Vastavaiya (From "Jawan")  |</span>  
+                          <span class="hover:text-white cursor-pointer">Kanhaiya Twitter Pe Aaja (From "The Great Indian Family")  |</span>  
+                          <span class="hover:text-white cursor-pointer">Nusta Paisa  |</span>
+                          <span class="hover:text-white cursor-pointer">Saure Ghar (From "Yaariyan 2")  |</span>
+                          <span class="hover:text-white cursor-pointer">Chaleya (From "Jawan")  |</span>
+                          <span class="hover:text-white cursor-pointer">CROWN  |</span>      
+                          <span class="hover:text-white cursor-pointer">Saawan Aa Gaya  |</span>  
+                          <span class="hover:text-white cursor-pointer">Angnaa |</span>
+                          <span class="hover:text-white cursor-pointer">Tere Naina  |</span>
+                          <span class="hover:text-white cursor-pointer">Over You  |</span>
+                          <span class="hover:text-white cursor-pointer">Jamnapaar  |</span>
+                          <span class="hover:text-white cursor-pointer">Gone Girl  |</span>
+                          <span class="hover:text-white cursor-pointer">Fantasy  |</span>
+                          <span class="hover:text-white cursor-pointer">Kyun Karu Fikar  |</span>
+                          <span class="hover:text-white cursor-pointer">Naach</span>     
+                      </div>
+                  </div>
+                  <div>
+                      <h1 class="text-white font-semibold text-sm">REGIONAL PLAYLISTS</H1>
+                      <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                          <span class="hover:text-white cursor-pointer">New Bengali Songs  |</span> 
+                          <span class="hover:text-white cursor-pointer">New Bhojpuri Songs  |</span> 
+                          <span class="hover:text-white cursor-pointer">New English Songs  | </span>
+                          <span class="hover:text-white cursor-pointer">New Haryanvi Songs  |</span>
+                          <span class="hover:text-white cursor-pointer">New Hindi Songs   | </span>
+                          <span class="hover:text-white cursor-pointer">New Kannada Songs  | </span>
+                          <span class="hover:text-white cursor-pointer">New Marathi Songs  | </span>
+                          <span class="hover:text-white cursor-pointer">New Punjabi Songs  | </span>
+                          <span class="hover:text-white cursor-pointer">New Tamil Songs  | </span>
+                          <span class="hover:text-white cursor-pointer">New Telugu Songs |</span>
+                          <span class="hover:text-white cursor-pointer">New Odia Songs  | </span>
+                          <span class="hover:text-white cursor-pointer">New Rajasthani Songs  |</span>
+                          <span class="hover:text-white cursor-pointer">New Gujarati Songs  |</span>
+                          <span class="hover:text-white cursor-pointer">New Assamese Songs</span>
+                      </div>
+                  </div>
+                  <div>
+                      <h1 class="text-white font-semibold text-sm">TRENDING SONGS</H1>
+                          <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                              <span class="hover:text-white cursor-pointer">Heeriye (feat. Arijit Singh)  |</span> 
+                              <span class="hover:text-white cursor-pointer">Zihaal e Miskin  |</span> 
+                              <span class="hover:text-white cursor-pointer">Chaleya (From "Jawan")  |</span>  
+                              <span class="hover:text-white cursor-pointer">Apna Bana Le  |</span>  
+                              <span class="hover:text-white cursor-pointer">Hukum - Thalaivar Alappara (From "Jailer")  |</span> 
+                              <span class="hover:text-white cursor-pointer">Dil Jhoom |</span>  
+                              <span class="hover:text-white cursor-pointer">Phir Aur Kya Chahiye (From "Zara Hatke Zara Bachke")  |</span> 
+                              <span class="hover:text-white cursor-pointer">Guli Mata  |</span>  
+                              <span class="hover:text-white cursor-pointer">Tere Vaaste (From "Zara Hatke Zara Bachke")  |</span>  
+                              <span class="hover:text-white cursor-pointer">Ram Siya Ram (From "Adipurush") |</span> 
+                              <span class="hover:text-white cursor-pointer">Udd Jaa Kaale Kaava  |</span>  
+                              <span class="hover:text-white cursor-pointer">Yaar Ka Sataya Hua Hai |</span>  
+                              <span class="hover:text-white cursor-pointer">Cheques  |</span>  
+                              <span class="hover:text-white cursor-pointer">Chal Tere Ishq Mein  |</span>  
+                              <span class="hover:text-white cursor-pointer">Tum Kya Mile (From "Rocky Aur Rani Kii Prem Kahaani")</span>
+                          </div>
+                  </div>
+                  <div>
+                      <h1 class="text-white font-semibold text-sm">TOP ARTISTS</H1>
+                      <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                          <span class="hover:text-white cursor-pointer">Guru Randhawa  |</span>
+                          <span class="hover:text-white cursor-pointer">Arijit Singh  |</span>
+                          <span class="hover:text-white cursor-pointer">Atif Aslam  |</span>
+                          <span class="hover:text-white cursor-pointer">Justin Bieber  |</span>
+                          <span class="hover:text-white cursor-pointer">Gulzar  |</span>
+                          <span class="hover:text-white cursor-pointer">Armaan Malik  |</span>
+                          <span class="hover:text-white cursor-pointer">Sidhu Moose Wala  |</span>
+                          <span class="hover:text-white cursor-pointer">Alan Walker  |</span>
+                          <span class="hover:text-white cursor-pointer">Udit Narayan  |</span>
+                          <span class="hover:text-white cursor-pointer">Sonu Nigam  |</span>
+                          <span class="hover:text-white cursor-pointer">Sid Sriram  |</span>
+                          <span class="hover:text-white cursor-pointer">Akhil  |</span>
+                          <span class="hover:text-white cursor-pointer">Darshan Raval  |</span>
+                          <span class="hover:text-white cursor-pointer">Shreya Ghoshal  |</span>
+                          <span class="hover:text-white cursor-pointer"> Alka Yagnik</span>         
+                      </div>
+                  </div>
+                  <div>
+                      <h1 class="text-white font-semibold text-sm">LATEST ALBUMS</H1>
+                          <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                              <span class="hover:text-white cursor-pointer">Speak Now (Taylor's Version)  |</span>  
+                              <span class="hover:text-white cursor-pointer">Dream Girl 2  |</span>  
+                              <span class="hover:text-white cursor-pointer">Vikram Original Motion Picture Soundtrack  |</span>  
+                              <span class="hover:text-white cursor-pointer">Shubh Vivah  |</span>  
+                              <span class="hover:text-white cursor-pointer">Thallumaala  |</span>
+                              <span class="hover:text-white cursor-pointer">Pushpa - The Rise  |</span>
+                              <span class="hover:text-white cursor-pointer">Ninna Sanihake  |</span>
+                              <span class="hover:text-white cursor-pointer">Praktan |</span>
+                              <span class="hover:text-white cursor-pointer">No Name  |</span>
+                              <span class="hover:text-white cursor-pointer">Bhavartha Mauli  |</span>
+                              <span class="hover:text-white cursor-pointer">Yuva Sarkar  |</span>
+                              <span class="hover:text-white cursor-pointer">Mal mahu jiban mati  |</span>
+                              <span class="hover:text-white cursor-pointer">You & I</span>        
+                      </div>
+                  </div>
+                  <div>
+                      <h1 class="text-white font-semibold text-sm">EXPLORE MUSIC GENRES</H1>
+                          <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                              <span class="hover:text-white cursor-pointer">Rock Songs  |</span> 
+                              <span class="hover:text-white cursor-pointer">Patriotic songs  |</span>   
+                              <span class="hover:text-white cursor-pointer">Sufi Music  |</span>  
+                              <span class="hover:text-white cursor-pointer">Ghazals  |</span>  
+                              <span class="hover:text-white cursor-pointer">Workout Music  |</span>  
+                              <span class="hover:text-white cursor-pointer">Devotional Songs  |</span>  
+                              <span class="hover:text-white cursor-pointer">Sad Songs  |</span>  
+                              <span class="hover:text-white cursor-pointer">DJ Songs</span>
+                      </div>
+                  </div>
+                  <div>
+                      <h1 class="text-white font-semibold text-sm">OLD SONGS</H1>
+                          <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                              <span class="hover:text-white cursor-pointer">Old  Songs  |</span>  
+                              <span class="hover:text-white cursor-pointer">Old Hindi Songs  |</span>  
+                              <span class="hover:text-white cursor-pointer">Old English Songs  |</span>  
+                              <span class="hover:text-white cursor-pointer">Old Punjabi Songs  |</span> 
+                              <span class="hover:text-white cursor-pointer">Old Telugu Songs  |</span>  
+                              <span class="hover:text-white cursor-pointer">Old Tamil Songs  |</span>
+                              <span class="hover:text-white cursor-pointer">Old Bengali Songs  |</span>
+                              <span class="hover:text-white cursor-pointer">Old Malayalam Songs  |</span>
+                              <span class="hover:text-white cursor-pointer">Old Kannada Songs</span>   
+                      </div>
+                  </div>
+                  <div>
+                      <h1 class="text-white font-semibold text-sm">SONGS WITH LYRICS</H1>
+                          <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                              <span class="hover:text-white cursor-pointer">Coca Cola  |</span>  
+                              <span class="hover:text-white cursor-pointer">Bom Diggy Diggy  |</span>  
+                              <span class="hover:text-white cursor-pointer">Machayenge  |</span>  
+                              <span class="hover:text-white cursor-pointer">Tera Yaar Hoon Main  |</span>  
+                              <span class="hover:text-white cursor-pointer">Kar Gayi Chull (From "Kapoor & Sons (Since 1921)") |</span>  
+                              <span class="hover:text-white cursor-pointer">Morni Banke  |</span>  
+                              <span class="hover:text-white cursor-pointer">Chalti Hai Kya 9 Se 12  |</span>  
+                              <span class="hover:text-white cursor-pointer">Hawayein</span>
+                      </div>
+                  </div>
+                  <div>
+                      <h1 class="text-white font-semibold text-sm">WYNK TOP HITS</H1>
+                          <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                              <span class="hover:text-white cursor-pointer">Top 20 Bollywood Songs  |</span>  
+                              <span class="hover:text-white cursor-pointer">Wynk Top 100 Songs  |</span>  
+                              <span class="hover:text-white cursor-pointer">Top 20 English Songs  |</span> 
+                              <span class="hover:text-white cursor-pointer">Trending Reels Songs</span>
+                      </div>
+                  </div>
+                  <div>
+                      <h1 class="text-white font-semibold text-sm">DEVOTIONAL SONGS</H1>
+                          <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                              <span class="hover:text-white cursor-pointer">Ganesh Ji Ki Aarti  |</span>  
+                              <span class="hover:text-white cursor-pointer">Laxmi Ji Ki Aarti  |</span>  
+                              <span class="hover:text-white cursor-pointer">Shri Hanuman Chalisa  |</span>  
+                              <span class="hover:text-white cursor-pointer">Shiv Bhajan  |</span>  
+                              <span class="hover:text-white cursor-pointer">Gurbani  |</span>
+                              <span class="hover:text-white cursor-pointer">Gurbani Shabad  |</span>
+                              <span class="hover:text-white cursor-pointer">Islamic Songs  |</span>
+                              <span class="hover:text-white cursor-pointer">Jesus Songs  |</span>
+                              <span class="hover:text-white cursor-pointer">Christian Songs</span>      
+                      </div>
+                  </div>
+                  <div>
+                      <h1 class="text-white font-semibold text-sm">JOIN WYNK FOR ARTISTS</H1>
+                          <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                              <span class="hover:text-white cursor-pointer">Wynk Studio  |</span>  
+                              <span class="hover:text-white cursor-pointer">Wynk Studio for Artists</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="md:hidden max-[768px]:block">
+                  <div>
+                      <h1 class="text-white font-semibold text-sm">LATEST SONGS</h1>
+                      <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                          <span class="hover:text-white cursor-pointer">Not Ramaiya Vastavaiya (From "Jawan")  |</span>  
+                          <span class="hover:text-white cursor-pointer">Kanhaiya Twitter Pe Aaja (From "The Great Indian Family")  |</span>  
+                          <span class="hover:text-white cursor-pointer">Nusta Paisa  |</span>
+                          <span class="hover:text-white cursor-pointer">Saure Ghar (From "Yaariyan 2")  |</span>
+                          <span class="hover:text-white cursor-pointer">Chaleya (From "Jawan")  |</span>
+                          <span class="hover:text-white cursor-pointer">CROWN  |</span>      
+                          <span class="hover:text-white cursor-pointer">Saawan Aa Gaya  |</span>  
+                          <span class="hover:text-white cursor-pointer">Angnaa |</span>
+                          <span class="hover:text-white cursor-pointer">Tere Naina  |</span>
+                          <span class="hover:text-white cursor-pointer">Over You  |</span>
+                          <span class="hover:text-white cursor-pointer">Jamnapaar  |</span>
+                          <span class="hover:text-white cursor-pointer">Gone Girl  |</span>
+                          <span class="hover:text-white cursor-pointer">Fantasy  |</span>
+                          <span class="hover:text-white cursor-pointer">Kyun Karu Fikar  |</span>
+                          <span class="hover:text-white cursor-pointer">Naach</span>     
+                      </div>
+                  </div>
+                  <div>
+                      <h1 class="text-white font-semibold text-sm">REGIONAL PLAYLISTS</H1>
+                      <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                          <span class="hover:text-white cursor-pointer">New Bengali Songs  |</span> 
+                          <span class="hover:text-white cursor-pointer">New Bhojpuri Songs  |</span> 
+                          <span class="hover:text-white cursor-pointer">New English Songs  | </span>
+                          <span class="hover:text-white cursor-pointer">New Haryanvi Songs  |</span>
+                          <span class="hover:text-white cursor-pointer">New Hindi Songs   | </span>
+                          <span class="hover:text-white cursor-pointer">New Kannada Songs  | </span>
+                          <span class="hover:text-white cursor-pointer">New Marathi Songs  | </span>
+                          <span class="hover:text-white cursor-pointer">New Punjabi Songs  | </span>
+                          <span class="hover:text-white cursor-pointer">New Tamil Songs  | </span>
+                          <span class="hover:text-white cursor-pointer">New Telugu Songs |</span>
+                          <span class="hover:text-white cursor-pointer">New Odia Songs  | </span>
+                          <span class="hover:text-white cursor-pointer">New Rajasthani Songs  |</span>
+                          <span class="hover:text-white cursor-pointer">New Gujarati Songs  |</span>
+                          <span class="hover:text-white cursor-pointer">New Assamese Songs</span>
+                      </div>
+                  </div>
+                  <div>
+                      <h1 class="text-white font-semibold text-sm">TRENDING SONGS</H1>
+                          <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                              <span class="hover:text-white cursor-pointer">Heeriye (feat. Arijit Singh)  |</span> 
+                              <span class="hover:text-white cursor-pointer">Zihaal e Miskin  |</span> 
+                              <span class="hover:text-white cursor-pointer">Chaleya (From "Jawan")  |</span>  
+                              <span class="hover:text-white cursor-pointer">Apna Bana Le  |</span>  
+                              <span class="hover:text-white cursor-pointer">Hukum - Thalaivar Alappara (From "Jailer")  |</span> 
+                              <span class="hover:text-white cursor-pointer">Dil Jhoom |</span>  
+                              <span class="hover:text-white cursor-pointer">Phir Aur Kya Chahiye (From "Zara Hatke Zara Bachke")  |</span> 
+                              <span class="hover:text-white cursor-pointer">Guli Mata  |</span>  
+                              <span class="hover:text-white cursor-pointer">Tere Vaaste (From "Zara Hatke Zara Bachke")  |</span>  
+                              <span class="hover:text-white cursor-pointer">Ram Siya Ram (From "Adipurush") |</span> 
+                              <span class="hover:text-white cursor-pointer">Udd Jaa Kaale Kaava  |</span>  
+                              <span class="hover:text-white cursor-pointer">Yaar Ka Sataya Hua Hai |</span>  
+                              <span class="hover:text-white cursor-pointer">Cheques  |</span>  
+                              <span class="hover:text-white cursor-pointer">Chal Tere Ishq Mein  |</span>  
+                              <span class="hover:text-white cursor-pointer">Tum Kya Mile (From "Rocky Aur Rani Kii Prem Kahaani")</span>
+                          </div>
+                  </div>
+                  <div>
+                      <h1 class="text-white font-semibold text-sm">TOP ARTISTS</H1>
+                      <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                          <span class="hover:text-white cursor-pointer">Guru Randhawa  |</span>
+                          <span class="hover:text-white cursor-pointer">Arijit Singh  |</span>
+                          <span class="hover:text-white cursor-pointer">Atif Aslam  |</span>
+                          <span class="hover:text-white cursor-pointer">Justin Bieber  |</span>
+                          <span class="hover:text-white cursor-pointer">Gulzar  |</span>
+                          <span class="hover:text-white cursor-pointer">Armaan Malik  |</span>
+                          <span class="hover:text-white cursor-pointer">Sidhu Moose Wala  |</span>
+                          <span class="hover:text-white cursor-pointer">Alan Walker  |</span>
+                          <span class="hover:text-white cursor-pointer">Udit Narayan  |</span>
+                          <span class="hover:text-white cursor-pointer">Sonu Nigam  |</span>
+                          <span class="hover:text-white cursor-pointer">Sid Sriram  |</span>
+                          <span class="hover:text-white cursor-pointer">Akhil  |</span>
+                          <span class="hover:text-white cursor-pointer">Darshan Raval  |</span>
+                          <span class="hover:text-white cursor-pointer">Shreya Ghoshal  |</span>
+                          <span class="hover:text-white cursor-pointer"> Alka Yagnik</span>         
+                      </div>
+                  </div>
+                  <div>
+                      <h1 class="text-white font-semibold text-sm">LATEST ALBUMS</H1>
+                          <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                              <span class="hover:text-white cursor-pointer">Speak Now (Taylor's Version)  |</span>  
+                              <span class="hover:text-white cursor-pointer">Dream Girl 2  |</span>  
+                              <span class="hover:text-white cursor-pointer">Vikram Original Motion Picture Soundtrack  |</span>  
+                              <span class="hover:text-white cursor-pointer">Shubh Vivah  |</span>  
+                              <span class="hover:text-white cursor-pointer">Thallumaala  |</span>
+                              <span class="hover:text-white cursor-pointer">Pushpa - The Rise  |</span>
+                              <span class="hover:text-white cursor-pointer">Ninna Sanihake  |</span>
+                              <span class="hover:text-white cursor-pointer">Praktan |</span>
+                              <span class="hover:text-white cursor-pointer">No Name  |</span>
+                              <span class="hover:text-white cursor-pointer">Bhavartha Mauli  |</span>
+                              <span class="hover:text-white cursor-pointer">Yuva Sarkar  |</span>
+                              <span class="hover:text-white cursor-pointer">Mal mahu jiban mati  |</span>
+                              <span class="hover:text-white cursor-pointer">You & I</span>        
+                      </div>
+                  </div>
+                  <div>
+                      <h1 class="text-white font-semibold text-sm">EXPLORE MUSIC GENRES</H1>
+                          <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                              <span class="hover:text-white cursor-pointer">Rock Songs  |</span> 
+                              <span class="hover:text-white cursor-pointer">Patriotic songs  |</span>   
+                              <span class="hover:text-white cursor-pointer">Sufi Music  |</span>  
+                              <span class="hover:text-white cursor-pointer">Ghazals  |</span>  
+                              <span class="hover:text-white cursor-pointer">Workout Music  |</span>  
+                              <span class="hover:text-white cursor-pointer">Devotional Songs  |</span>  
+                              <span class="hover:text-white cursor-pointer">Sad Songs  |</span>  
+                              <span class="hover:text-white cursor-pointer">DJ Songs</span>
+                      </div>
+                  </div>
+                  <div>
+                      <h1 class="text-white font-semibold text-sm">OLD SONGS</H1>
+                          <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                              <span class="hover:text-white cursor-pointer">Old  Songs  |</span>  
+                              <span class="hover:text-white cursor-pointer">Old Hindi Songs  |</span>  
+                              <span class="hover:text-white cursor-pointer">Old English Songs  |</span>  
+                              <span class="hover:text-white cursor-pointer">Old Punjabi Songs  |</span> 
+                              <span class="hover:text-white cursor-pointer">Old Telugu Songs  |</span>  
+                              <span class="hover:text-white cursor-pointer">Old Tamil Songs  |</span>
+                              <span class="hover:text-white cursor-pointer">Old Bengali Songs  |</span>
+                              <span class="hover:text-white cursor-pointer">Old Malayalam Songs  |</span>
+                              <span class="hover:text-white cursor-pointer">Old Kannada Songs</span>   
+                      </div>
+                  </div>
+                  <div>
+                      <h1 class="text-white font-semibold text-sm">SONGS WITH LYRICS</H1>
+                          <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                              <span class="hover:text-white cursor-pointer">Coca Cola  |</span>  
+                              <span class="hover:text-white cursor-pointer">Bom Diggy Diggy  |</span>  
+                              <span class="hover:text-white cursor-pointer">Machayenge  |</span>  
+                              <span class="hover:text-white cursor-pointer">Tera Yaar Hoon Main  |</span>  
+                              <span class="hover:text-white cursor-pointer">Kar Gayi Chull (From "Kapoor & Sons (Since 1921)") |</span>  
+                              <span class="hover:text-white cursor-pointer">Morni Banke  |</span>  
+                              <span class="hover:text-white cursor-pointer">Chalti Hai Kya 9 Se 12  |</span>  
+                              <span class="hover:text-white cursor-pointer">Hawayein</span>
+                      </div>
+                  </div>
+                  <div>
+                      <h1 class="text-white font-semibold text-sm">WYNK TOP HITS</H1>
+                          <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                              <span class="hover:text-white cursor-pointer">Top 20 Bollywood Songs  |</span>  
+                              <span class="hover:text-white cursor-pointer">Wynk Top 100 Songs  |</span>  
+                              <span class="hover:text-white cursor-pointer">Top 20 English Songs  |</span> 
+                              <span class="hover:text-white cursor-pointer">Trending Reels Songs</span>
+                      </div>
+                  </div>
+                  <div>
+                      <h1 class="text-white font-semibold text-sm">DEVOTIONAL SONGS</H1>
+                          <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                              <span class="hover:text-white cursor-pointer">Ganesh Ji Ki Aarti  |</span>  
+                              <span class="hover:text-white cursor-pointer">Laxmi Ji Ki Aarti  |</span>  
+                              <span class="hover:text-white cursor-pointer">Shri Hanuman Chalisa  |</span>  
+                              <span class="hover:text-white cursor-pointer">Shiv Bhajan  |</span>  
+                              <span class="hover:text-white cursor-pointer">Gurbani  |</span>
+                              <span class="hover:text-white cursor-pointer">Gurbani Shabad  |</span>
+                              <span class="hover:text-white cursor-pointer">Islamic Songs  |</span>
+                              <span class="hover:text-white cursor-pointer">Jesus Songs  |</span>
+                              <span class="hover:text-white cursor-pointer">Christian Songs</span>      
+                      </div>
+                  </div>
+                  <div>
+                      <h1 class="text-white font-semibold text-sm">JOIN WYNK FOR ARTISTS</H1>
+                          <div class="text-gray-500 font-medium text-xs leading-6 mt-3 mb-5">
+                              <span class="hover:text-white cursor-pointer">Wynk Studio  |</span>  
+                              <span class="hover:text-white cursor-pointer">Wynk Studio for Artists</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+    
+</section>
+            
+<hr>
+<div>
+  <!-- <div class="footerpart">
+   
+  
+        <footer >
+    <!--main flex-->
+  <div class="mainpart flex justify-around ">  
+    <!--left flex-->
+                  <div class="leftpart justify-items-center">
+          
+       <a class="cursor-pointer text-gray-500" href="#">ABOUT US |</a>
+      
+        <a class="cursor-pointer text-gray-500" href="#">PRIVACY POLICY |</a>
+        
+       <a class="cursor-pointer text-gray-500" href="#">TERMS OF USE |</a>
+          
+        <a class="cursor-pointer text-gray-500" href="#">CONTACT US |</a>
+          
+  <a class="cursor-pointer text-gray-500" href="#">HELLO TUNES</a>
+                </div>
+  
+  <!--middle part-->
+
+   <!---left part-->
+          <div class="flex justify-items-center mt-8 md:mt-0">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+
+
+  
+  <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+    
+        <div class="last flex justify-around">
+        <div class="firstpart">
+              <p class="text-neutral-700 text-xs"> 
+                Wynk Music is the one-stop music app for the latest to the greatest songs that you love. Play your favourite music online for free 
+              </p>
+              <p class="text-neutral-700 text-xs">or download mp3. Enjoy from over 22 Million Hindi, English, Bollywood, Regional, Latest, Old songs and more.</p>
+        </div>
+      
+           
+      
+        <div class="secondpart">
+            <p class="text-neutral-700 text-xs">2023 © All rights reserved | Airtel Digital Limited </p>
+        </div>
+        
+        </div>
+        
+     
+
+
+</div>
+</body>
+</html>
